@@ -7,7 +7,7 @@ import video from "../images/3dprinter.mp4";
 const RegisterPage = () => (
   <>
     <SEO title="Register" />
-    <video autoplay muted loop id="bgVideo">
+    <video autoPlay muted loop id="bgVideo">
       <source src={video} type="video/mp4" />
     </video>
 

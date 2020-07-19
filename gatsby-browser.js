@@ -2,7 +2,7 @@ require("./src/css/styles.css");
 
 exports.onClientEntry = () => {
   window.onload = () => {
-    window.objAccount = [
+    window.objAccounts = [
       {
         username: "Medical",
         password: "User",
@@ -13,4 +13,5 @@ exports.onClientEntry = () => {
       },
     ];
   };
+  window.loggedInAcc = {};
 };
