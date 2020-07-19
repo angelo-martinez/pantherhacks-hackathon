@@ -12,9 +12,9 @@ const RegisterPage = () => (
     </video>
 
     <div className="center">
-      <article class="register-card">
+      <article className="register-card">
         <h1>register</h1>
-        <Link to="/dashboard" class="btn btn-a">
+        <Link to="/dashboard" className="btn btn-a">
           <span>Goto Dashboard</span>
         </Link>
       </article>

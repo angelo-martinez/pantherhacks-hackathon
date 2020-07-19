@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import SEO from "../components/seo";
 import Header from "../components/header";
@@ -9,43 +8,44 @@ const DashboardPage = () => (
   <>
     <SEO title="Dashboard" />
     <Header />
-    <main class="dash-content">
-      <div class="sidebar js-sidebar">
-        <div class="sidebar__img">
+    <main className="dash-content">
+      <div className="sidebar js-sidebar">
+        <div className="sidebar__img">
           <img src={avi} alt="Account avi" />
         </div>
-        <h2 class="sidebar__username">Username</h2>
-        <ul class="sidebar__links">
+        <h2 className="sidebar__username">Username</h2>
+        <ul className="sidebar__links">
           <li>
-            <button type="button" class="sidebar__btn js-overview">
-              <i class="fa fa-address-card-o" aria-hidden="true"></i> Overview
+            <button type="button" className="sidebar__btn js-overview">
+              <i className="fa fa-address-card-o" aria-hidden="true"></i>{" "}
+              Overview
             </button>
           </li>
           <li>
-            <button type="button" class="sidebar__btn js-overview">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i> Messages
+            <button type="button" className="sidebar__btn js-overview">
+              <i className="fa fa-envelope-o" aria-hidden="true"></i> Messages
             </button>
           </li>
           <li>
-            <button type="button" class="sidebar__btn js-queue">
-              <i class="fa fa-hourglass-half" aria-hidden="true"></i> Queue
+            <button type="button" className="sidebar__btn js-queue">
+              <i className="fa fa-hourglass-half" aria-hidden="true"></i> Queue
             </button>
           </li>
           <li>
-            <button type="button" class="sidebar__btn js-overview">
-              <i class="fa fa-sign-out" aria-hidden="true"></i> Sign Off
+            <button type="button" className="sidebar__btn js-overview">
+              <i className="fa fa-sign-out" aria-hidden="true"></i> Sign Off
             </button>
           </li>
         </ul>
       </div>
-      <div class="dashboard js-dashboard">
-        <div class="dashboard-top">
-          <div class="dashboard-top__dropdown js-dashboard-date">
-            Today <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      <div className="dashboard js-dashboard">
+        <div className="dashboard-top">
+          <div className="dashboard-top__dropdown js-dashboard-date">
+            Today <i className="fa fa-chevron-down" aria-hidden="true"></i>
           </div>
-          <div class="dashboard-order js-dashboard-date">Order</div>
+          <div className="dashboard-order js-dashboard-date">Order</div>
         </div>
-        <div class="dashboard-content"></div>
+        <div className="dashboard-content"></div>
       </div>
     </main>
   </>
