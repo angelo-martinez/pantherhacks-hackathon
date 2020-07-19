@@ -1,14 +1,14 @@
 {
   "name": "pantherhacks-hackathon",
   "version": "1.0.0",
-  "description": "",
+  "description": "Built in PantherHacks 2020 in order to help our community battle covid-19.",
   "main": "index.js",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build"
   },
   "keywords": [],
-  "author": "Built in PantherHacks 2020 in order to help our community battle covid-19.",
+  "author": "Angelo Martinez, Wally Proenza, Alex Lopez, Jonathan Terry",
   "license": "ISC",
   "dependencies": {
     "gatsby": "^2.23.12",

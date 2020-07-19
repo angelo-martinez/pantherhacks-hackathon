@@ -137,7 +137,7 @@ const RegisterPage = () => {
           <Link
             to="/dashboard"
             className="btn"
-            style={{ width: "fit-content", margin: "0 auto", display: "block" }}
+            style={{ width: "250px", margin: "0 auto", display: "block" }}
             onClick={createAccount}
           >
             <span>Create Account</span>

@@ -49,6 +49,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   margin-top: 5px;
+  text-align: center;
 }
 
 .sidebar__links {
@@ -71,7 +72,8 @@ body {
 }
 
 .sidebar__btn:hover,
-.sidebar__btn:focus {
+.sidebar__btn:focus,
+.sidebar__btn.active {
   background-color: #1c76be;
   background-image: linear-gradient(
     77deg,
@@ -87,4 +89,60 @@ body {
   background-color: #d4d4d4;
   box-shadow: 0px 0px 10.53px 1.47px rgba(0, 0, 0, 0.4);
   padding: 25px 45px;
+  margin-right: 155px;
+  width: 100%;
+}
+
+.dashboard-top {
+  display: flex;
+  justify-content: space-between;
+  color: #1c76be;
+  margin-bottom: 20px;
+}
+
+.dashboard-top__dropdown {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  font-weight: 600;
+}
+
+.order-box {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+.order-box:hover {
+  background: #f5f5f5;
+}
+
+.cancel-btn {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.cancel-btn:hover {
+  background-color: #c70505;
+}
+
+.order-details {
+  display: flex;
+}
+
+.order-details p {
+  height: 100%;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1.5px solid #eee;
 }

@@ -9,7 +9,7 @@ exports.onClientEntry = () => {
         type: "Medic",
       },
       {
-        usernam: "Maker",
+        username: "Maker",
         password: "User",
         type: "Maker",
       },

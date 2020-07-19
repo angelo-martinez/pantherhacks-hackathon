@@ -5,6 +5,8 @@
 - REACTJS!
 - GATSBYJS!
 
+Built by: Angelo Martinez, Wally Proenza, Alex Lopez, and Jonathan Terry.
+
 [Web app link](https://printmd-703e7.web.app/)
 
 ##### To start the dev server
