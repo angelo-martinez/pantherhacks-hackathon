@@ -24,7 +24,7 @@ const RegisterPage = () => {
             <input type="password" placeholder="Confirm Password" />
             <input type="text" placeholder="First Name" />
             <input type="text" placeholder="Last Name" />
-            <div>
+            <div className="decider">
               <input
                 type="radio"
                 id="Medic"
@@ -33,16 +33,16 @@ const RegisterPage = () => {
                 onChange={e => settypeOfAcc(e.currentTarget.value)}
               />
               <label htmlFor="Medic">Medic</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                id="Maker"
-                name="drone"
-                value="Maker"
-                onChange={e => settypeOfAcc(e.currentTarget.value)}
-              />
-              <label htmlFor="Maker">Maker</label>
+              <div className="float-right">
+                <input
+                  type="radio"
+                  id="Maker"
+                  name="drone"
+                  value="Maker"
+                  onChange={e => settypeOfAcc(e.currentTarget.value)}
+                />
+                <label htmlFor="Maker">Maker</label>
+              </div>
             </div>
             <div className="hospital">
               <input type="text" placeholder="Hospital of employment" />
@@ -124,7 +124,11 @@ const RegisterPage = () => {
               </div>
             </div>
           </form>
-          <Link to="/dashboard" className="btn btn-a">
+          <Link
+            to="/dashboard"
+            className="btn"
+            style={{ width: "fit-content", margin: "0 auto", display: "block" }}
+          >
             <span>Create Account</span>
           </Link>
         </article>
