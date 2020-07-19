@@ -7,7 +7,7 @@
 
 Built by: Angelo Martinez, Wally Proenza, Alex Lopez, and Jonathan Terry.
 
-Abstract:
+**Abstract:**
 
 The Covid-19 pandemic shook our communities as Covid-19 patients began to swarm hospitals at an alarming rate. While most were given the option to practice self-isolation in an effort to avoid infection, healthcare workers were caught in the middle of a crossfire between patients in sudden need of ventilators and that of an unexpected increase in demand for personal protective equipment, also known as PPE. As the patients kept coming and the cases doubled per day, there seemed to be a shadow of gloom as healthcare workers began to get sick themselves, compromising their patients, and their loved ones.
 
