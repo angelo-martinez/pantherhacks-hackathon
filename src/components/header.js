@@ -13,8 +13,13 @@ const Header = props => {
         <img src={logo} alt="logo" className="logo" />
       </Link>
       {props.button && (
-        <Link to={loggedInAcc ? "/dashboard" : "/login"} className="btn btn-a">
-          <span>{loggedInAcc ? "Dashboard" : "Log in"}</span>
+        <Link
+          to={Object.keys(loggedInAcc).length !== 0 ? "/dashboard" : "/login"}
+          className="btn btn-a"
+        >
+          <span>
+            {Object.keys(loggedInAcc).length !== 0 ? "Dashboard" : "Log in"}
+          </span>
         </Link>
       )}
     </nav>
