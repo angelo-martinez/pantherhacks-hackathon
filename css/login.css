@@ -1,3 +1,5 @@
+@import './buttons.css';
+
 .center {
   display: flex;
   justify-content: center;
@@ -8,12 +10,14 @@
 .login-card {
   width: 350px;
   padding: 20px;
-  background-color: rgba(255, 236, 210, 1);
+  background-color: #62bae4;
   border-radius: 15px;
 }
 
 .login-card__name {
   text-align: center;
+  font-size: 40px;
+  color: #fff;
 }
 
 .login-card__buttons {
