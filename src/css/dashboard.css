@@ -49,6 +49,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   margin-top: 5px;
+  text-align: center;
 }
 
 .sidebar__links {
@@ -87,4 +88,38 @@ body {
   background-color: #d4d4d4;
   box-shadow: 0px 0px 10.53px 1.47px rgba(0, 0, 0, 0.4);
   padding: 25px 45px;
+  margin-right: 155px;
+  width: 100%;
+}
+
+.dashboard-top {
+  display: flex;
+  justify-content: space-between;
+  color: #1c76be;
+}
+
+.dashboard-top__dropdown {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  font-weight: 600;
+}
+
+.order-box {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cancel-btn {
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
