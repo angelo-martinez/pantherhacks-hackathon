@@ -3,10 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/dashboard.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Dashboard</title>
   </head>
   <body>
-    <h1>dashboard</h1>
-    <p>hello?</p>
+    <nav class="nav-bar">
+      <a href="/">
+        <img src="./images/logo.png" alt="logo" class="logo" />
+      </a>
+    </nav>
+    <main class="content">
+      <div class="sidebar js-sidebar">
+        <div class="sidebar__img">
+          <img src="./images/avi.png" alt="Account avi" />
+        </div>
+        <h2 class="sidebar__username">Username</h2>
+        <ul class="sidebar__links">
+          <li>
+            <button type="button" class="sidebar__btn js-overview">
+              <i class="fa fa-address-card-o" aria-hidden="true"></i> Overview
+            </button>
+          </li>
+          <li>
+            <button type="button" class="sidebar__btn js-overview">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> Messages
+            </button>
+          </li>
+          <li>
+            <button type="button" class="sidebar__btn js-queue">
+              <i class="fa fa-hourglass-half" aria-hidden="true"></i> Queue
+            </button>
+          </li>
+          <li>
+            <button type="button" class="sidebar__btn js-overview">
+              <i class="fa fa-sign-out" aria-hidden="true"></i> Sign Off
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="dashboard js-dashboard">
+        <div class="dashboard-top">
+          <div class="dashboard-top__dropdown js-dashboard-date">
+            Today
+          </div>
+          <div class="dashboard-order js-dashboard-date">
+            Order
+          </div>
+        </div>
+        <div class="dashboard-content"></div>
+      </div>
+    </main>
   </body>
 </html>
