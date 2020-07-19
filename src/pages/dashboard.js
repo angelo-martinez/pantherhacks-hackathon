@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/dashboard.css" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>Dashboard</title>
-  </head>
-  <body>
-    <nav class="nav-bar">
-      <a href="/">
-        <img src="./images/logo.png" alt="logo" class="logo" />
-      </a>
-    </nav>
+import React from "react";
+import { Link } from "gatsby";
+
+import SEO from "../components/seo";
+import Header from "../components/header";
+
+const DashboardPage = () => (
+  <>
+    <SEO title="Dashboard" />
+    <Header />
     <main class="content">
       <div class="sidebar js-sidebar">
         <div class="sidebar__img">
@@ -51,13 +42,12 @@
           <div class="dashboard-top__dropdown js-dashboard-date">
             Today <i class="fa fa-chevron-down" aria-hidden="true"></i>
           </div>
-          <div class="dashboard-order js-dashboard-date">
-            Order
-          </div>
+          <div class="dashboard-order js-dashboard-date">Order</div>
         </div>
         <div class="dashboard-content"></div>
       </div>
     </main>
-    <script type="text/javascript" src="global.js"></script>
-  </body>
-</html>
+  </>
+);
+
+export default DashboardPage;
