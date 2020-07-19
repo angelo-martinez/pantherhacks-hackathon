@@ -2,7 +2,8 @@
 
 - HTML
 - CSS
-- VANILLA JS!
+- REACTJS!
+- GATSBYJS!
 
 [Web app link](https://printmd-703e7.web.app/)
 
