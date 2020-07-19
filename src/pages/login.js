@@ -23,7 +23,7 @@ const LogInPage = () => (
             <button type="button" className="btn js-login">
               <span>Log In</span>
             </button>
-            <Link to="/register" className="btn">
+            <Link to="/register" className="btn btn-a">
               <span>Register</span>
             </Link>
           </div>

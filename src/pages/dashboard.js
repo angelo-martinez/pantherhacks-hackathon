@@ -3,15 +3,16 @@ import { Link } from "gatsby";
 
 import SEO from "../components/seo";
 import Header from "../components/header";
+import avi from "../images/avi.png";
 
 const DashboardPage = () => (
   <>
     <SEO title="Dashboard" />
     <Header />
-    <main class="content">
+    <main class="dash-content">
       <div class="sidebar js-sidebar">
         <div class="sidebar__img">
-          <img src="./images/avi.png" alt="Account avi" />
+          <img src={avi} alt="Account avi" />
         </div>
         <h2 class="sidebar__username">Username</h2>
         <ul class="sidebar__links">

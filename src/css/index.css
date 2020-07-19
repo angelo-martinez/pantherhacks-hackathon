@@ -1,4 +1,4 @@
-@import './buttons.css';
+@import "./buttons.css";
 
 body {
   background-color: #eaeaea;
@@ -72,10 +72,10 @@ p {
 
 .footer {
   flex-shrink: 0;
-  background: url('../images/curve.svg') center top no-repeat;
+  background: url("../images/curve.svg") center top no-repeat;
   z-index: -1;
   background-size: 3000px;
-  margin-top: -250px;
+  margin-top: -100px;
   height: 500px;
   color: white;
   font-size: 20px;
