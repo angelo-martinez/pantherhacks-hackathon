@@ -37,3 +37,7 @@
   opacity: 1;
   right: 0;
 }
+
+.btn-a {
+  display: inline-block;
+}

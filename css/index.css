@@ -1,0 +1,72 @@
+@import './buttons.css';
+
+body {
+  background-color: #eaeaea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  height: 100px;
+  background-color: #1c76be;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: auto;
+  max-height: 100px;
+  display: inline-block;
+}
+
+.text-lead {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 748px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  height: 100px;
+  background-color: #1c76be;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
