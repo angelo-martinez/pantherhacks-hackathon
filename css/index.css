@@ -28,18 +28,20 @@ body {
   padding-left: 155px;
   padding-top: 100px;
   display: flex;
+  justify-content: space-between;
 }
 
 .facemask-img {
   width: 150px;
   margin: 0 auto 10px;
-  border-radius: 50% 10% 50% 50%;
+  border-radius: 50% 6% 50% 50%;
   background-color: #1c76be;
   padding: 25px;
 }
 
 .container__left {
   padding-right: 40px;
+  text-align: center;
 }
 
 .container__right img {
@@ -55,6 +57,7 @@ body {
 
 p {
   font-size: 18px;
+  max-width: 647px;
 }
 
 .footer {
