@@ -1,0 +1,21 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  width: 350px;
+  padding: 20px;
+  background-color: rgba(255, 236, 210, 1);
+  border-radius: 15px;
+}
+
+.login-card__name {
+  text-align: center;
+}
+
+.login-card__buttons {
+  text-align: center;
+}
