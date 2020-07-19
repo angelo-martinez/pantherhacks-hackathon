@@ -35,3 +35,21 @@
 .login-card__buttons {
   text-align: center;
 }
+
+.js-login-wrapper.is-logging-in .login-card__buttons {
+  display: none;
+}
+
+.js-login-wrapper:not(.is-logging-in) .login-card__form {
+  display: none;
+}
+
+.login-card__form {
+  text-align: center;
+}
+
+.login-card__input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}

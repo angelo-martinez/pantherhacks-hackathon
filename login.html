@@ -19,13 +19,30 @@
           <img src="./images/Better_Logo.png" alt="3d print logo" />
         </div>
         <h1 class="login-card__name">PrintMD</h1>
-        <div class="login-card__buttons js-login-wrapper">
-          <button type="button" class="btn js-login">
-            <span>Log In</span>
-          </button>
-          <button type="button" class="btn js-register">
-            <span>Register</span>
-          </button>
+        <div class="js-login-wrapper">
+          <div class="login-card__buttons">
+            <button type="button" class="btn js-login">
+              <span>Log In</span>
+            </button>
+            <button type="button" class="btn js-register">
+              <span>Register</span>
+            </button>
+          </div>
+          <div class="login-card__form">
+            <input
+              type="text"
+              placeholder="Enter Username"
+              required
+              class="login-card__input"
+            />
+            <input
+              type="password"
+              placeholder="Enter Password"
+              required
+              class="login-card__input"
+            />
+            <button type="submit" class="btn">Login</button>
+          </div>
         </div>
       </article>
     </div>
