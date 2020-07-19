@@ -14,8 +14,11 @@ body {
 .nav-bar {
   height: 100px;
   background-color: #1c76be;
-  margin-bottom: 10px;
+  padding-right: 10px;
   padding-left: 155px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -63,6 +66,7 @@ p {
 .footer {
   flex-shrink: 0;
   background: url('../images/curve.svg') center top no-repeat;
+  z-index: -1;
   background-size: 3000px;
   margin-top: -250px;
   height: 500px;
