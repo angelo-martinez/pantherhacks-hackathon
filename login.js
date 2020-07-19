@@ -7,7 +7,3 @@ bgVid.playbackRate = 0.4;
 logInBtn.addEventListener('click', () => {
   document.querySelector('.js-login-wrapper').classList.add('is-logging-in');
 });
-
-registerBtn.addEventListener('click', () => {
-  window.location.href = '/register';
-});
