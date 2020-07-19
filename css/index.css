@@ -15,6 +15,7 @@ body {
   height: 100px;
   background-color: #1c76be;
   margin-bottom: 10px;
+  padding-left: 155px;
 }
 
 .logo {
@@ -24,67 +25,49 @@ body {
 }
 
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
+  padding-left: 155px;
+  padding-top: 100px;
+  display: flex;
 }
 
-@media (min-width: 576px) {
-  .container {
-    max-width: 560px;
-  }
+.facemask-img {
+  width: 150px;
+  margin: 0 auto 10px;
+  border-radius: 50% 10% 50% 50%;
+  background-color: #1c76be;
+  padding: 25px;
 }
 
-@media (min-width: 748px) {
-  .container {
-    max-width: 720px;
-  }
+.container__left {
+  padding-right: 40px;
 }
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
+.container__right img {
+  border-radius: 20px 0 0 20px;
 }
 
 .text-lead {
-  font-size: 40px;
+  font-size: 55px;
+  margin-bottom: 0;
+  font-weight: 300;
   margin-top: 0;
 }
 
 p {
-  max-width: 80%;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 250px 100px 250px;
-  gap: 50px;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.grid__col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 18px;
 }
 
 .footer {
   flex-shrink: 0;
-  height: 100px;
-  background-color: #1c76be;
+  background: url('../images/curve.svg') center top no-repeat;
+  background-size: 3000px;
+  margin-top: -250px;
+  height: 500px;
   color: white;
   font-size: 20px;
   font-weight: 600;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
 }
