@@ -8,6 +8,7 @@ import logo from "../images/Better_Logo.png";
 const LogInPage = () => {
   const [loggingIn, setloggingIn] = useState(false);
   const username = useRef(null);
+
   const password = useRef(null);
 
   function handleLogIn(e) {
