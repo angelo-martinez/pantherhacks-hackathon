@@ -5,9 +5,11 @@ var objAccount = [
 },
 {
     usernam="Maker",
-    password="User"
+    password="User",
+    info='hello'
 }
 ]
+
 
 function Info() {
     var username = document.getElementById("username").value
