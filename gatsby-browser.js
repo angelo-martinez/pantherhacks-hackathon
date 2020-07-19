@@ -6,10 +6,12 @@ exports.onClientEntry = () => {
       {
         username: "Medical",
         password: "User",
+        type: "Medic",
       },
       {
         usernam: "Maker",
         password: "User",
+        type: "Maker",
       },
     ];
   };

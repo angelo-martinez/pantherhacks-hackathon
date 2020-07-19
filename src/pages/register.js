@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "gatsby";
 
 import SEO from "../components/seo";
@@ -6,7 +6,17 @@ import video from "../images/3dprinter.mp4";
 
 const RegisterPage = () => {
   const [typeOfAcc, settypeOfAcc] = useState(false);
-  console.log(typeOfAcc);
+  const username = useRef(null);
+
+  function createAccount() {
+    const acc = {
+      username: username.current.value,
+      type: "",
+    };
+
+    window.loggedInAcc = acc;
+  }
+
   return (
     <>
       <SEO title="Register" />
@@ -19,7 +29,7 @@ const RegisterPage = () => {
           <form
             className={`registration-form ${typeOfAcc ? typeOfAcc : "none"}`}
           >
-            <input type="text" placeholder="Username" />
+            <input type="text" placeholder="Username" ref={username} />
             <input type="password" placeholder="Password" />
             <input type="password" placeholder="Confirm Password" />
             <input type="text" placeholder="First Name" />
@@ -128,6 +138,7 @@ const RegisterPage = () => {
             to="/dashboard"
             className="btn"
             style={{ width: "fit-content", margin: "0 auto", display: "block" }}
+            onClick={createAccount}
           >
             <span>Create Account</span>
           </Link>
