@@ -7,6 +7,10 @@ body {
   flex-direction: column;
 }
 
+.content {
+  flex: 1 0 auto;
+}
+
 .nav-bar {
   height: 100px;
   background-color: #1c76be;
@@ -17,11 +21,6 @@ body {
   width: auto;
   max-height: 100px;
   display: inline-block;
-}
-
-.text-lead {
-  font-size: 40px;
-  margin-top: 0;
 }
 
 .container {
@@ -55,8 +54,27 @@ body {
   }
 }
 
-.content {
-  flex: 1 0 auto;
+.text-lead {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+p {
+  max-width: 80%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 250px 100px 250px;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.grid__col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
