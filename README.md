@@ -7,7 +7,7 @@
 
 Built by: Angelo Martinez, Wally Proenza, Alex Lopez, and Jonathan Terry.
 
-[Go to PrintMD](https://printmd-703e7.web.app/)
+[Visit PrintMD](https://printmd-703e7.web.app/)
 
 
 **Abstract:**
