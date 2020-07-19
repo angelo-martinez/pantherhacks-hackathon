@@ -60,19 +60,35 @@ const DashboardPage = () => {
           </div>
           <div className="dashboard-content">
             <div className="order-box">
-              <p>Order Name</p>
+              <div className="order-details">
+                <p>101- Face shields</p>
+                <p>100</p>
+                <p>est. $256</p>
+              </div>
               <button class="cancel-btn">Stop</button>
             </div>
             <div className="order-box">
-              <p>Order Name</p>
+              <div className="order-details">
+                <p>102- Face shields</p>
+                <p>50</p>
+                <p>est. $128</p>
+              </div>
               <button class="cancel-btn">Stop</button>
             </div>
             <div className="order-box">
-              <p>Order Name</p>
+              <div className="order-details">
+                <p>103- Face shields</p>
+                <p>100</p>
+                <p>est. $256</p>
+              </div>
               <button class="cancel-btn">Stop</button>
             </div>
             <div className="order-box">
-              <p>Order Name</p>
+              <div className="order-details">
+                <p>104- Face shields</p>
+                <p>75</p>
+                <p>est. $192</p>
+              </div>
               <button class="cancel-btn">Stop</button>
             </div>
           </div>

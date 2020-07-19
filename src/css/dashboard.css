@@ -96,6 +96,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: #1c76be;
+  margin-bottom: 20px;
 }
 
 .dashboard-top__dropdown {
@@ -118,8 +119,20 @@ body {
 
 .cancel-btn {
   background-color: red;
+  cursor: pointer;
   color: white;
   border: 0;
   border-radius: 5px;
   padding: 10px 20px;
+}
+
+.order-details {
+  display: flex;
+}
+
+.order-details p {
+  height: 100%;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1.5px solid #eee;
 }
