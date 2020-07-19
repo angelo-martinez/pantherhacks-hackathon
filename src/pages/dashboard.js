@@ -21,7 +21,7 @@ const DashboardPage = () => {
           <h2 className="sidebar__username">{loggedInAcc.username}</h2>
           <ul className="sidebar__links">
             <li>
-              <button type="button" className="sidebar__btn js-overview">
+              <button type="button" className="sidebar__btn js-overview active">
                 <i className="fa fa-address-card-o" aria-hidden="true"></i>{" "}
                 Overview
               </button>
@@ -61,7 +61,7 @@ const DashboardPage = () => {
           <div className="dashboard-content">
             <div className="order-box">
               <div className="order-details">
-                <p>101- Face shields</p>
+                <p>101- Full Face Mask</p>
                 <p>100</p>
                 <p>est. $256</p>
               </div>
@@ -69,7 +69,7 @@ const DashboardPage = () => {
             </div>
             <div className="order-box">
               <div className="order-details">
-                <p>102- Face shields</p>
+                <p>102- Full Face Mask</p>
                 <p>50</p>
                 <p>est. $128</p>
               </div>
@@ -77,9 +77,9 @@ const DashboardPage = () => {
             </div>
             <div className="order-box">
               <div className="order-details">
-                <p>103- Face shields</p>
+                <p>103- Face Mask</p>
                 <p>100</p>
-                <p>est. $256</p>
+                <p>est. $79</p>
               </div>
               <button class="cancel-btn">Stop</button>
             </div>
@@ -87,7 +87,7 @@ const DashboardPage = () => {
               <div className="order-details">
                 <p>104- Face shields</p>
                 <p>75</p>
-                <p>est. $192</p>
+                <p>est. $45</p>
               </div>
               <button class="cancel-btn">Stop</button>
             </div>
