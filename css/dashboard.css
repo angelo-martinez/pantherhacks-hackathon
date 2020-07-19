@@ -34,6 +34,7 @@ body {
   box-shadow: 9px 5px 21px -8px rgba(0, 0, 0, 0.6);
   border-radius: 0 10px 10px 0;
   background-color: white;
+  margin-right: 85px;
 }
 
 .sidebar__img {
@@ -84,4 +85,6 @@ body {
 
 .dashboard {
   background-color: #d4d4d4;
+  box-shadow: 0px 0px 10.53px 1.47px rgba(0, 0, 0, 0.4);
+  padding: 25px 45px;
 }
