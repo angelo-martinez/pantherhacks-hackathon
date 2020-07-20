@@ -8,8 +8,11 @@
 - GATSBYJS!
 
 **Project Manager/Producer:** Wally Proenza
+
 **Front-End Developer:** Angelo Martinez
+
 **Back-End Developer:** Jonathan Terry
+
 **Back-End Developer/ Graphic Designer:** Alex Lopez 
 
 [Visit printMD](https://printmd-703e7.web.app/)
