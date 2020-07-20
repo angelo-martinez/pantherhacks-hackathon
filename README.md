@@ -1,13 +1,20 @@
 # PantherHacks Hackathon
 
+**Please pardon our dust; printMD is under development!**
+
 - HTML
 - CSS
 - REACTJS!
 - GATSBYJS!
 
-Built by: Angelo Martinez, Wally Proenza, Alex Lopez, and Jonathan Terry.
+**Project Manager/Producer:** Wally Proenza
+**Front-End Developer:** Angelo Martinez
+**Back-End Developer:** Jonathan Terry
+**Back-End Developer/ Graphic Designer:** Alex Lopez 
 
-[Visit PrintMD](https://printmd-703e7.web.app/)
+[Visit printMD](https://printmd-703e7.web.app/)
+
+[Check Out Our Youtube Video](https://youtu.be/VmfEph66DtQ)
 
 
 **Abstract:**
